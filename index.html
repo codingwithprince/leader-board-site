@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Font awesome CSS -->
     <link rel="stylesheet" href="css/all.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>Leader Board Site</title>
 </head>
@@ -30,7 +32,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="text-white"><i class="fas fa-bars"></i></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,37 +64,37 @@
             <div class="container bg-white">
                 <h1 class="pt-3 header-text">Top player</h1>
                 <div class="row pb-3">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="player d-flex align-items-center">
                             <img src="images/players/player-1.png" alt="">
                             <h5>player-1</h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="player d-flex align-items-center">
                             <img src="images/players/player-2.png" alt="">
                             <h5>player-2</h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="player d-flex align-items-center">
                             <img src="images/players/player-3.png" alt="">
                             <h5>player-3</h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="player d-flex align-items-center">
                             <img src="images/players/player-4.png" alt="">
                             <h5>player-4</h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="player d-flex align-items-center">
                             <img src="images/players/player-5.png" alt="">
                             <h5>player-5</h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="player d-flex align-items-center">
                             <img src="images/players/player-6.png" alt="">
                             <h5>player-6</h5>
@@ -103,7 +105,7 @@
                 <!-- Top Blop area -->
                 <h1 class="pt-3 header-text">Top Blog</h1>
                 <div class="row">
-                    <div class="col-md-6 blog-items d-flex align-items-center">
+                    <div class="col-md-6 col-6 blog-items d-flex align-items-center">
                         <img src="images/blogs/blog-1.png" alt="">
                         <div class="blog-text">
                             <h4>13 of my Favorite</h4>
@@ -111,7 +113,7 @@
                             <p>by <a href="#">Danny Sapio</a></p>
                         </div>
                     </div>
-                    <div class="col-md-6 blog-items d-flex align-items-center">
+                    <div class="col-md-6 col-6 blog-items d-flex align-items-center">
                         <img src="images/blogs/blog-2.png" alt="">
                         <div class="blog-text">
                             <h4>Ui cheat sheet:</h4>
@@ -119,7 +121,7 @@
                             <p>by <a href="#">Danny Sapio</a></p>
                         </div>
                     </div>
-                    <div class="col-md-6 blog-items d-flex align-items-center">
+                    <div class="col-md-6 col-6 blog-items d-flex align-items-center">
                         <img src="images/blogs/blog-3.png" alt="">
                         <div class="blog-text">
                             <h4>Ui cheat sheet:</h4>
@@ -127,7 +129,7 @@
                             <p>by <a href="#">Danny Sapio</a></p>
                         </div>
                     </div>
-                    <div class="col-md-6 blog-items d-flex align-items-center">
+                    <div class="col-md-6 col-6 blog-items d-flex align-items-center">
                         <img src="images/blogs/blog-4.png" alt="">
                         <div class="blog-text">
                             <h4>Ui cheat sheet:</h4>
@@ -145,93 +147,105 @@
                 <h1 class="pt-3 header-text">latest Course</h1>
                 <div class="row pb-3">
                     <div class="card-group">
-                        <div class="card">
-                          <img class="card-img-top" src="images/courses/course-1.png" alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">React The complete guide 2020</h5>
-                            <a href="#" class="card-text">Redd karkof</a>
-                          </div>
-                          <div class="card-footer">
-                            <div class="row">
-                                <div class="col-md-7 d-flex align-items-center">
-                                    <div class="stars">
-                                        <img src="images/icons/star.png" alt="">
-                                        <img src="images/icons/star.png" alt="">
-                                        <img src="images/icons/star.png" alt="">
-                                        <img src="images/icons/star.png" alt="">
-                                        <img src="images/icons/star.png" alt="">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/courses/course-1.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">React The complete guide 2020</h5>
+                                      <a href="#" class="card-text">Redd karkof</a>
                                     </div>
-                                    <small>4.5</small>
-                                </div>
-                                <div class="col-md-5 ">
-                                   <div class="time d-flex align-items-center justify-content-center">
-                                       <div class="icon">
-                                        <i class="far fa-clock"></i>
-                                       </div>
-                                        <p>01:30 hr</p>
-                                   </div>
-                                </div>
+                                    <div class="card-footer">
+                                      <div class="row">
+                                          <div class="col-md-7 col-sm-6 col-6  d-flex align-items-center">
+                                              <div class="stars">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                              </div>
+                                              <small>4.5</small>
+                                          </div>
+                                          <div class="col-md-5 col-sm-6 col-6">
+                                             <div class="time d-flex align-items-center justify-content-center">
+                                                 <div class="icon">
+                                                  <i class="far fa-clock"></i>
+                                                 </div>
+                                                  <p>01:30 hr</p>
+                                             </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
                             </div>
-                          </div>
+
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/courses/course-2.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">React The complete guide 2020</h5>
+                                      <a href="#" class="card-text">Redd karkof</a>
+                                    </div>
+                                    <div class="card-footer">
+                                      <div class="row">
+                                          <div class="col-md-7 col-sm-6 col-6 d-flex align-items-center">
+                                              <div class="stars">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                              </div>
+                                              <small>4.5</small>
+                                          </div>
+                                          <div class="col-md-5 col-sm-6 col-6">
+                                             <div class="time d-flex align-items-center justify-content-center">
+                                                 <div class="icon">
+                                                  <i class="far fa-clock"></i>
+                                                 </div>
+                                                  <p>01:30 hr</p>
+                                             </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/courses/course-3.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">React The complete guide 2020</h5>
+                                      <a href="#" class="card-text">Redd karkof</a>
+                                    </div>
+                                    <div class="card-footer">
+                                      <div class="row">
+                                          <div class="col-md-7  col-sm-6 col-6 d-flex align-items-center">
+                                              <div class="stars">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                                  <img src="images/icons/star.png" alt="">
+                                              </div>
+                                              <small>4.5</small>
+                                          </div>
+                                          <div class="col-md-5 col-sm-6 col-6 ">
+                                             <div class="time d-flex align-items-center justify-content-center">
+                                                 <div class="icon">
+                                                  <i class="far fa-clock"></i>
+                                                 </div>
+                                                  <p>01:30 hr</p>
+                                             </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src="images/courses/course-2.png" alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">React The complete guide 2020</h5>
-                              <a href="#" class="card-text">Redd karkof</a>
-                            </div>
-                            <div class="card-footer">
-                              <div class="row">
-                                  <div class="col-md-7 d-flex align-items-center">
-                                      <div class="stars">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                      </div>
-                                      <small>4.5</small>
-                                  </div>
-                                  <div class="col-md-5 ">
-                                     <div class="time d-flex align-items-center justify-content-center">
-                                         <div class="icon">
-                                          <i class="far fa-clock"></i>
-                                         </div>
-                                          <p>01:30 hr</p>
-                                     </div>
-                                  </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img class="card-img-top" src="images/courses/course-3.png" alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">React The complete guide 2020</h5>
-                              <a href="#" class="card-text">Redd karkof</a>
-                            </div>
-                            <div class="card-footer">
-                              <div class="row">
-                                  <div class="col-md-7 d-flex align-items-center">
-                                      <div class="stars">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                          <img src="images/icons/star.png" alt="">
-                                      </div>
-                                      <small>4.5</small>
-                                  </div>
-                                  <div class="col-md-5 ">
-                                     <div class="time d-flex align-items-center justify-content-center">
-                                         <div class="icon">
-                                          <i class="far fa-clock"></i>
-                                         </div>
-                                          <p>01:30 hr</p>
-                                     </div>
-                                  </div>
-                              </div>
-                            </div>
-                          </div>
+                        
+                       
+                         
                          
                       </div>
                 </div> 
